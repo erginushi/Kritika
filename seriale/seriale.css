@@ -1,0 +1,325 @@
+span
+{
+  color: #e63900;
+}
+
+.col-sm-12
+{
+  background-color: #ffebe6;
+}
+
+#head
+{
+  text-align: center;
+}
+
+hr
+{
+  border-width: 5px;
+  border-color: #990000;
+}
+
+@font-face {
+    font-family: Godfather;
+    src: url(TheGodfather-v2.ttf);
+}
+
+@font-face {
+    font-family: BreakingBad;
+    src: url(bb.otf);
+}
+
+@font-face {
+    font-family: GOT;
+    src: url(got.ttf);
+}
+
+@font-face {
+    font-family: theend;
+    src: url(markus.ttf);
+}
+
+@font-face {
+    font-family: hoc;
+    src: url(hoc.ttf);
+}
+
+@font-face {
+    font-family: robot;
+    src: url(robot.ttf);
+}
+
+@font-face {
+    font-family: bm;
+    src: url(proxima.ttf);
+}
+
+a:hover
+{
+  text-decoration: none;
+  color: #ffcc00;
+  -webkit-transition: color 0.2s ease, background 0.6s ease, border-color 0.2s ease;
+  transition: color 0.2s ease, background 0.6s ease, border-color 0.2s ease;
+}
+
+a
+{
+  color: #8c8c8c;
+}
+
+h1, h2
+{
+  font-family: Godfather;
+  font-size: 70px;
+  text-align: center;
+  color: black;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.link:hover
+{
+  font-size: 80px;
+  text-decoration: none;
+}
+
+.row
+{
+  display: inline;
+}
+
+.col-sm-12
+{
+  background: linear-gradient(rgb(255, 255, 230),rgb(255, 255, 204));
+}
+
+.tefundit
+{
+  font-family: Lora;
+  font-size: 30px;
+  position: relative;
+}
+
+.content-wrapper
+{
+  background-color: ;
+  border-radius: 30px;
+}
+
+
+#foto
+{
+  margin-right: auto;
+  margin-left: 10px;
+  width: 100%;
+}
+
+
+.post
+{
+  background: linear-gradient(rgba(191, 191, 191, 1), rgba(0, 0, 153, 0.0));
+  position: relative;
+}
+
+#figura
+{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+/*.fotohov figure {
+  position: relative;
+}
+.fotohov figure::before {
+  position: absolute;
+  top: 0;
+  left: -75%;
+  z-index: 2;
+  display: block;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+  -webkit-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+}
+.fotohov figure:hover::before {
+  -webkit-animation: shine .75s;
+  animation: shine .75s;
+}
+@-webkit-keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}*/
+
+.kategoria
+{
+  font-family: Arial;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.permbajtja
+{
+  font-family: Lora;
+  font-size: 20px;
+  text-align: center;
+}
+
+p
+{
+  color: black;
+}
+
+p::first-letter
+{
+  font-size: 50px;
+}
+
+#poshte
+{
+  padding-top: 7%;
+}
+
+#butonFillim
+{
+  display: none;  /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+}
+
+#butonFillim:hover
+{
+  background-color: #cc3300;
+}
+
+#butonLart
+{
+  color: black;
+}
+
+.fotohov
+{
+  position: relative;
+  width: 100%;
+}
+
+.overlay
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.fotohov:hover .overlay
+{
+  opacity: 1;
+}
+
+.shkrim
+{
+  color: white;
+  font-size: 15px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.bb
+{
+  font-family: BreakingBad;
+  font-size: 50px;
+  color: green;
+}
+
+.got
+{
+  font-family: GOT;
+  font-size: 20px;
+  color: gray;
+}
+
+.theend
+{
+  font-family: theend;
+  font-size: 50px;
+  color: red;
+}
+
+.hoc
+{
+  font-family: hoc;
+  font-size: 50px;
+  color: black;
+}
+
+.robot
+{
+  font-family: robot;
+  font-size: 50px;
+  color: red;
+}
+
+.bm
+{
+  font-family: bm;
+  font-size: 50px;
+  color: #66ccff;
+}
+#footerbox{
+ 
+	height: 90px;
+	background: #5f2f2f;
+	text-align: center;
+		color: white;
+	font-size: 17px;
+}
+
+#footer{
+	text-align: center;
+	color: white;
+	background: #333;
+	width: 80%;
+	margin-left: 120px;
+	display: block;
+	justify-content: space-between;
+}
+#kontakt{
+	
+	height: 50px;
+	font-size: 27px;
+	display: flex;
+}
+#kontakt div{
+	flex-grow: 1;
+}
